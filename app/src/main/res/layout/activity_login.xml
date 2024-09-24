@@ -9,8 +9,41 @@
     tools:context=".LoginActivity">
 
     <TextView
-        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/Login"
+        android:textColor="@color/blue">
+    </TextView>
+
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text= "@string/Login"
+        android:layout_margin="5dp"
+        android:autofillHints="emailAddress"
+        android:hint="@string/Login_hint"
+        android:inputType="textEmailAddress"
+        android:singleLine="true">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="@string/password"
+        android:singleLine="true"
+        android:textColor="@color/blue">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:autofillHints="password"
+        android:inputType="textPassword"
+        android:singleLine="true">
+
+    </EditText>
+
+
 </LinearLayout>
