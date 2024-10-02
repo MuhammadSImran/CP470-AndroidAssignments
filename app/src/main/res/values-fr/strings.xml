@@ -8,4 +8,5 @@
     <string name = "radiobutton">Bouton radio</string>
     <string name = "first_switch">À quoi cela sert-il ??</string>
     <string name = "Checkbox">CheckBox</string>
+    <string name="login_button">Connexion</string>
 </resources>

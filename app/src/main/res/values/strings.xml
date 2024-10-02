@@ -8,7 +8,5 @@
     <string name = "radiobutton">RadioButton</string>
     <string name = "first_switch">What does this do?</string>
     <string name = "Checkbox">CheckBox</string>
-    <string name = "GoToListItems">Go to List Items</string>
-    <string name = "Home">Home</string>
-
+    <string name="login_button">Login</string>
 </resources>
