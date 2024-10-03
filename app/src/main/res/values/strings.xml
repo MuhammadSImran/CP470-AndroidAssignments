@@ -9,4 +9,8 @@
     <string name = "first_switch">What does this do?</string>
     <string name = "Checkbox">CheckBox</string>
     <string name="login_button">Login</string>
+    <string name="dialog_message">Are you sure you want to finish the activity?</string>
+    <string name="dialog_title">Confirmation</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
 </resources>

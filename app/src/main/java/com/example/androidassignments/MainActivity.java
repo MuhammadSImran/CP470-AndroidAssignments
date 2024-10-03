@@ -1,7 +1,11 @@
 package com.example.androidassignments;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,6 +26,28 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         Log.d("MainActivity", "onCreate called");
+
+        Button button = findViewById(R.id.button);
+        button.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ListItemsActivity.class);
+
+            startActivityForResult(intent, 10);
+
+        });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 10) {
+            Log.i("MainActivity", "Returned to MainActivity.onActivityResult");
+            if(resultCode == Activity.RESULT_OK){
+                String messagePassed = data.getStringExtra("Response");
+                if(messagePassed != null){
+                    Toast.makeText(this,"ListItemsActivity passed:" + messagePassed, Toast.LENGTH_SHORT).show();
+                }
+            }
+        }
     }
 
     @Override
