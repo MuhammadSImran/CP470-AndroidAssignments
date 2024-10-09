@@ -7,16 +7,15 @@
     android:layout_height="match_parent"
     tools:context=".ChatWindow">
 
+    <!-- ListView for displaying chat messages -->
     <ListView
         android:id="@+id/chat_list_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/message_input_layout"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
         android:padding="8dp" />
 
+    <!-- Message input layout at the bottom -->
     <RelativeLayout
         android:id="@+id/message_input_layout"
         android:layout_width="match_parent"
@@ -28,21 +27,19 @@
             android:id="@+id/message_input"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/send_button"
             android:layout_alignParentStart="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd = "8dp"
-            android:layout_toLeftOf="@id/send_button"
+            android:layout_marginEnd="8dp"
             android:hint="@string/typemessage"
-            android:inputType="text"/>
+            android:inputType="text" />
 
         <Button
             android:id="@+id/send_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:text="@string/Send"/>
-    </RelativeLayout>
+            android:text="@string/Send" />
 
+    </RelativeLayout>
 
 </RelativeLayout>

@@ -16,4 +16,5 @@
     <string name="chat_button">Start Chat</string>
     <string name="Send">Send</string>
     <string name="typemessage">Type a message</string>
+    <string name="newtext">New Text</string>
 </resources>
