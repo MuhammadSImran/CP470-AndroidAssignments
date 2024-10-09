@@ -9,8 +9,11 @@
     <string name = "first_switch">À quoi cela sert-il ??</string>
     <string name = "Checkbox">CheckBox</string>
     <string name="login_button">Connexion</string>
-    <string name="dialog_message">Êtes-vous sûr de vouloir terminer l'activité ?</string>
+    <string name="dialog_message">Êtes-vous sûr de vouloir terminer lactivité ?</string>
     <string name="dialog_title">Confirmation</string>
     <string name="ok">Oui</string>
     <string name="cancel">non</string>
+    <string name="chat_button">Démarrer le Chat</string>
+    <string name="Send">Envoyer</string>
+    <string name="typemessage">Taper un message</string>
 </resources>
