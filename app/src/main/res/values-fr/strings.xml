@@ -17,4 +17,10 @@
     <string name="Send">Envoyer</string>
     <string name="typemessage">Taper un message</string>
     <string name="newtext">Nouveau texte</string>
+    <string name="new_message">Saisissez votre nouveau message</string>
+    <string name="Choice_1">Choix 1</string>
+    <string name="Choice_2">Choix 2</string>
+    <string name="Choice_3">Choix 3</string>
+    <string name="About">A propos de </string>
+    <string name="dialogue_back">Voulez-vous y retourner?</string>
 </resources>

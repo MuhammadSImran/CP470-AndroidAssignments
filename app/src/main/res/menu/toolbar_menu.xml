@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_one"
+        android:title="@string/Choice_1"
+        android:icon="@drawable/icons8_chat_94"
+        android:orderInCategory="101"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_two"
+        android:title="@string/Choice_2"
+        android:icon="@drawable/icons8_arrow_left_94"
+        android:orderInCategory="102"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_three"
+        android:title="@string/Choice_3"
+        android:icon="@drawable/icons8_edit_chat_history_94"
+        android:orderInCategory="103"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/About"
+        android:orderInCategory="104"
+        app:showAsAction="never" />
+</menu>

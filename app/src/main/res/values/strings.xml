@@ -17,4 +17,15 @@
     <string name="Send">Send</string>
     <string name="typemessage">Type a message</string>
     <string name="newtext">New Text</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="dialogue_back">Do you want to go back?</string>
+    <string name="new_message">Enter your new message</string>
+    <string name="Choice_1">Choice 1</string>
+    <string name="Choice_2">Choice 2</string>
+    <string name="Choice_3">Choice 3</string>
+    <string name="About">About</string>
 </resources>

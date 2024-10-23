@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -30,8 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Button button = findViewById(R.id.button);
         button.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, ListItemsActivity.class);
-
-            startActivityForResult(intent, 10);
+            startActivity(intent);
 
         });
 
@@ -40,6 +40,14 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, ChatWindow.class);
             Log.d("MainActivity", "User clicked Start Chat");
             startActivity(intent);
+        });
+
+        Button testToolbarButton = findViewById(R.id.button_test_toolbar);
+        testToolbarButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, TestToolbar.class);
+            Log.d("MainActivity", "User clicked TestToolbar");
+            startActivity(intent);
+
         });
     }
 
