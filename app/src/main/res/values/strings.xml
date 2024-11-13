@@ -28,4 +28,104 @@
     <string name="Choice_2">Choice 2</string>
     <string name="Choice_3">Choice 3</string>
     <string name="About">About</string>
+    <string name="TestToolbar"> Test Toolbar</string>
+    <string name="WeatherForecast">Weather Forecast</string>
+    <string-array name="canadian_cities">
+        <!-- Alberta -->
+        <item>Calgary</item>
+        <item>Edmonton</item>
+        <item>Red Deer</item>
+        <item>Lethbridge</item>
+        <item>St. Albert</item>
+        <item>Medicine Hat</item>
+        <item>Grande Prairie</item>
+        <item>Airdrie</item>
+
+        <!-- British Columbia -->
+        <item>Vancouver</item>
+        <item>Victoria</item>
+        <item>Surrey</item>
+        <item>Burnaby</item>
+        <item>Richmond</item>
+        <item>Kelowna</item>
+        <item>Kamloops</item>
+        <item>Nanaimo</item>
+
+        <!-- Manitoba -->
+        <item>Winnipeg</item>
+        <item>Brandon</item>
+        <item>Steinbach</item>
+        <item>Thompson</item>
+        <item>Portage la Prairie</item>
+
+        <!-- New Brunswick -->
+        <item>Fredericton</item>
+        <item>Moncton</item>
+        <item>Saint John</item>
+        <item>Miramichi</item>
+        <item>Bathurst</item>
+
+        <!-- Newfoundland and Labrador -->
+        <item>St. Johns</item>
+        <item>Mount Pearl</item>
+        <item>Corner Brook</item>
+        <item>Conception Bay South</item>
+
+        <!-- Northwest Territories -->
+        <item>Yellowknife</item>
+        <item>Inuvik</item>
+        <item>Hay River</item>
+
+        <!-- Nova Scotia -->
+        <item>Halifax</item>
+        <item>Sydney</item>
+        <item>Truro</item>
+        <item>New Glasgow</item>
+
+        <!-- Nunavut -->
+        <item>Iqaluit</item>
+        <item>Rankin Inlet</item>
+        <item>Arviat</item>
+
+        <!-- Ontario -->
+        <item>Toronto</item>
+        <item>Ottawa</item>
+        <item>Mississauga</item>
+        <item>Brampton</item>
+        <item>Hamilton</item>
+        <item>London</item>
+        <item>Markham</item>
+        <item>Vaughan</item>
+        <item>Kitchener</item>
+        <item>Windsor</item>
+        <item>Richmond Hill</item>
+        <item>Barrie</item>
+        <item>Sudbury</item>
+        <item>Thunder Bay</item>
+
+        <!-- Prince Edward Island -->
+        <item>Charlottetown</item>
+        <item>Summerside</item>
+
+        <!-- Quebec -->
+        <item>Montreal</item>
+        <item>Quebec City</item>
+        <item>Laval</item>
+        <item>Gatineau</item>
+        <item>Longueuil</item>
+        <item>Sherbrooke</item>
+        <item>Trois-Rivières</item>
+        <item>Saint-Jean-sur-Richelieu</item>
+
+        <!-- Saskatchewan -->
+        <item>Regina</item>
+        <item>Saskatoon</item>
+        <item>Prince Albert</item>
+        <item>Moose Jaw</item>
+        <item>Yorkton</item>
+
+        <!-- Yukon -->
+        <item>Whitehorse</item>
+        <item>Dawson City</item>
+    </string-array>
 </resources>

@@ -47,7 +47,17 @@
         android:layout_height="47dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="4dp"
-        android:text="Test Toolbar"
+        android:text="@string/TestToolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chat_button" />
+
+    <Button
+        android:id="@+id/button_weather_forecast"
+        android:layout_width="139dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/WeatherForecast"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chat_button" />
 

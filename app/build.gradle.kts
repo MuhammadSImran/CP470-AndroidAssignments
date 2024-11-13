@@ -35,6 +35,8 @@ android {
 }
 
 dependencies {
+
+    implementation("com.github.bumptech.glide:glide:4.12.0")
     // Unit Testing
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.mockito:mockito-core:3.11.2")
@@ -54,4 +56,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+
 }

@@ -3,16 +3,16 @@
     <string name="hello_message">Bonjour le monde!</string>
     <string name="ButtonText">Je suis un bouton</string>
     <string name="Login">Connexion</string>
-    <string name ="Login_hint">nom de connexion</string>
-    <string name ="password">mot de passe</string>
-    <string name = "radiobutton">Bouton radio</string>
-    <string name = "first_switch">À quoi cela sert-il ??</string>
-    <string name = "Checkbox">CheckBox</string>
+    <string name="Login_hint">nom de connexion</string>
+    <string name="password">mot de passe</string>
+    <string name="radiobutton">Bouton radio</string>
+    <string name="first_switch">À quoi cela sert-il ?</string>
+    <string name="Checkbox">CheckBox</string>
     <string name="login_button">Connexion</string>
     <string name="dialog_message">Êtes-vous sûr de vouloir terminer lactivité ?</string>
     <string name="dialog_title">Confirmation</string>
     <string name="ok">Oui</string>
-    <string name="cancel">non</string>
+    <string name="cancel">Non</string>
     <string name="chat_button">Démarrer le Chat</string>
     <string name="Send">Envoyer</string>
     <string name="typemessage">Taper un message</string>
@@ -21,6 +21,107 @@
     <string name="Choice_1">Choix 1</string>
     <string name="Choice_2">Choix 2</string>
     <string name="Choice_3">Choix 3</string>
-    <string name="About">A propos de </string>
+    <string name="About">À propos de</string>
     <string name="dialogue_back">Voulez-vous y retourner?</string>
+    <string name="TestToolbar">Barre doutils de test</string>
+    <string name="WeatherForecast">Prévisions météorologiques pour le lancement</string>
+
+    <string-array name="canadian_cities">
+        <!-- Alberta -->
+        <item>Calgary</item>
+        <item>Edmonton</item>
+        <item>Red Deer</item>
+        <item>Lethbridge</item>
+        <item>St. Albert</item>
+        <item>Medicine Hat</item>
+        <item>Grande Prairie</item>
+        <item>Airdrie</item>
+
+        <!-- British Columbia -->
+        <item>Vancouver</item>
+        <item>Victoria</item>
+        <item>Surrey</item>
+        <item>Burnaby</item>
+        <item>Richmond</item>
+        <item>Kelowna</item>
+        <item>Kamloops</item>
+        <item>Nanaimo</item>
+
+        <!-- Manitoba -->
+        <item>Winnipeg</item>
+        <item>Brandon</item>
+        <item>Steinbach</item>
+        <item>Thompson</item>
+        <item>Portage la Prairie</item>
+
+        <!-- New Brunswick -->
+        <item>Fredericton</item>
+        <item>Moncton</item>
+        <item>Saint John</item>
+        <item>Miramichi</item>
+        <item>Bathurst</item>
+
+        <!-- Newfoundland and Labrador -->
+        <item>St. Johns</item>
+        <item>Mount Pearl</item>
+        <item>Corner Brook</item>
+        <item>Conception Bay South</item>
+
+        <!-- Northwest Territories -->
+        <item>Yellowknife</item>
+        <item>Inuvik</item>
+        <item>Hay River</item>
+
+        <!-- Nova Scotia -->
+        <item>Halifax</item>
+        <item>Sydney</item>
+        <item>Truro</item>
+        <item>New Glasgow</item>
+
+        <!-- Nunavut -->
+        <item>Iqaluit</item>
+        <item>Rankin Inlet</item>
+        <item>Arviat</item>
+
+        <!-- Ontario -->
+        <item>Toronto</item>
+        <item>Ottawa</item>
+        <item>Mississauga</item>
+        <item>Brampton</item>
+        <item>Hamilton</item>
+        <item>London</item>
+        <item>Markham</item>
+        <item>Vaughan</item>
+        <item>Kitchener</item>
+        <item>Windsor</item>
+        <item>Richmond Hill</item>
+        <item>Barrie</item>
+        <item>Sudbury</item>
+        <item>Thunder Bay</item>
+
+        <!-- Prince Edward Island -->
+        <item>Charlottetown</item>
+        <item>Summerside</item>
+
+        <!-- Quebec -->
+        <item>Montreal</item>
+        <item>Quebec City</item>
+        <item>Laval</item>
+        <item>Gatineau</item>
+        <item>Longueuil</item>
+        <item>Sherbrooke</item>
+        <item>Trois-Rivières</item>
+        <item>Saint-Jean-sur-Richelieu</item>
+
+        <!-- Saskatchewan -->
+        <item>Regina</item>
+        <item>Saskatoon</item>
+        <item>Prince Albert</item>
+        <item>Moose Jaw</item>
+        <item>Yorkton</item>
+
+        <!-- Yukon -->
+        <item>Whitehorse</item>
+        <item>Dawson City</item>
+    </string-array>
 </resources>
